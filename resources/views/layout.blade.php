@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="{{ asset('public/app.css') }}" rel="stylesheet">
+  <link href="{{ URL::asset('app.css') }}" rel="stylesheet">
   <title>@yield('title', 'default')</title>
 </head>
 <body>

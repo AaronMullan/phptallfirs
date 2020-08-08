@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Whirled</title>
-</head>
-<body>
-    <H1>Hello World</H1>
-    <a href="/contact">contact us</a>
-</body>
-</html>
+@extends('layout')
+@section('title', 'welcome')
+
+
+@section('content')
+
+<h2>hellloo, loverssss</h2>
+
+<ul>
+
+    @foreach($tasks as $task)
+
+    <li><?= $task; ?></li>
+
+    @endforeach
+    
+</ul>
+
+@endsection

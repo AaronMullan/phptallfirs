@@ -14,9 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $tasks = [
+        'learn laravel',
+        'party hard',
+        'doomscroll'
+    ];
+    return view('welcome', [
+        'tasks' => $tasks
+    ]);
 });
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/about', function () {
+    return view('about');
 });

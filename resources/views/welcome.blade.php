@@ -3,18 +3,25 @@
 
 
 @section('content')
+<div class="welcome">
+    <h1>Tall Firs</h1>
 
-<h1>Tall Firs in PHP</h1>
-<h3>Messing around with PHP, figured I'd make a band website. Here's a foreach To Do to flex some skillz: </h3>
+    <div class="treecontainer">
+        <img src="trees.svg" alt="some nice trees">
+    </div>
+    
+    <div class="welcome-container">
+        <h3>Underground Electric Folk</h3>
 
-<ul>
+            <ul>
 
-    @foreach($tasks as $task)
+            @foreach($tasks as $task)
 
-    <li><?= $task; ?></li>
+                <li><?= $task; ?></li>
 
-    @endforeach
+            @endforeach
 
-</ul>
-
+            </ul>
+    </div>
+</div>
 @endsection

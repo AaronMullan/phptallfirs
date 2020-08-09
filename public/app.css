@@ -4,12 +4,20 @@
   font-family: 'PT Sans', sans-serif;
   text-align: center;
 }
+body{
+  margin: 0 5vw;
+}
+h1{
+  font-family: 'DM Mono', monospace;
+  font-size: 3em;
+  color:hsl(307, 21%, 70%);
+}
 ul{
   list-style: none;
   padding: 0;
 }
 p{
-  text-align: left;
+  text-align: justify;
 }
 .quote{
   color: #4cbe9f;
@@ -20,10 +28,28 @@ p{
 }
 .twitter img{
   width: 70vw;
+  border-radius: .5em;
 }
 .header{
+  display: flex;
   padding-top: 2vh;
+  flex-direction: row-reverse;
+}
+.header *{
+  padding: 0 2vw;
 }
 .tooold{
   border-radius: .5em;
+}
+.treecontainer{
+  display: flex;
+  // padding-left: 3vw;
+  // height: 40vh;
+}
+.welcome{
+  height: 100vh;
+  border: 0;
+}
+.welcome-container{
+  padding-top: 3vh;
 }

@@ -4,7 +4,7 @@
 
 @section('content')
 
-<h2>Contact Us</h2>
+<h1>Contact Us</h1>
 
 <p>It's probably easiest to reach us on Twitter, where we provide insights that are occasionally enjoyed by as many as two people.</p>
 

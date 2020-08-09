@@ -9,10 +9,12 @@ about
 @section('content')
 
 <h1>About Us</h1>
-<h3>Found this old press release lying around, thought it was fun:</h3>
+
 <h4>November 2008: For Immediate, Sweet Release!</h4>
 
+<div class="subheader">
 <h2>Tall Firs Continue Partying; Tens Illegally Download The Critically-Acclaimed <span style="font-style: italic"> Too Old to Die Young </span></h2>
+</div>
 
 <img class ="tooold" src="tooold.jpg" alt="Tall Firs Cover Art">
 

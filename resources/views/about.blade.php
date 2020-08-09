@@ -12,7 +12,9 @@ about
 <h3>Found this old press release lying around, thought it was fun:</h3>
 <h4>November 2008: For Immediate, Sweet Release!</h4>
 
-<h2>Tall Firs Continue Partying; Tens Illegally Download The Critically-Acclaimed Too Old to Die Young</h2>
+<h2>Tall Firs Continue Partying; Tens Illegally Download The Critically-Acclaimed <span style="font-style: italic"> Too Old to Die Young </span></h2>
+
+<img class ="tooold" src="tooold.jpg" alt="Tall Firs Cover Art">
 
 <p> <span class="quote">’Too Old’ offers tracks like the adamant lead-single "So Messed Up", and…the energy is far from unbecoming, bringing [Tall Firs] out of a self-imposed coma… the Firs get downright skin-crazed and wild. Toms patter and cymbals rattle while the guitars… stir themselves into a mini-furor. </span> <span class="source"> -Pitchfork </span> <br><br>
 

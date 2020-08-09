@@ -4,8 +4,8 @@
 
 @section('content')
 
-<h2>Welcome to my PHP site</h2>
-<h3>I am planning to do the following things:</h3>
+<h1>Tall Firs in PHP</h1>
+<h3>Messing around with PHP, figured I'd make a band website. Here's a foreach To Do to flex some skillz: </h3>
 
 <ul>
 

@@ -18,3 +18,12 @@ p{
 .source{
   color:hsl(307, 21%, 70%);
 }
+.twitter img{
+  width: 70vw;
+}
+.header{
+  padding-top: 2vh;
+}
+.tooold{
+  border-radius: .5em;
+}

@@ -17,7 +17,7 @@ Route::get('/', function () {
 
     $tasks = [
         'learn laravel',
-        'party hard my dudes',
+        'make sandwich',
         'doomscroll'
     ];
     return view('welcome', [

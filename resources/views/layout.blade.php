@@ -8,11 +8,11 @@
   <title>@yield('title', 'default')</title>
 </head>
 <body>
+  <div class="header">
+  <a href="/">home</a>
+  <a href="/about">about</a>
+  <a href="/contact">contact</a>
+  </div>
 @yield('content')
-<div class="footer">
-<a href="/">home</a>
-<a href="/about">about</a>
-<a href="/contact">contact</a>
-</div>
 </body>
 </html>

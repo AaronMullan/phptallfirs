@@ -4,7 +4,8 @@
 
 @section('content')
 
-<h2>hellloo, loverssss</h2>
+<h2>Welcome to my PHP site</h2>
+<h3>I am planning to do the following things:</h3>
 
 <ul>
 
@@ -13,7 +14,7 @@
     <li><?= $task; ?></li>
 
     @endforeach
-    
+
 </ul>
 
 @endsection

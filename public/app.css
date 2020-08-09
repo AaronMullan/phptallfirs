@@ -10,7 +10,11 @@ body{
 h1{
   font-family: 'DM Mono', monospace;
   font-size: 3em;
-  color:hsl(307, 21%, 70%);
+  color:#c3a2bf;
+  margin: 1vh;
+}
+h3{
+  margin: 0;
 }
 ul{
   list-style: none;
@@ -46,10 +50,19 @@ p{
   // padding-left: 3vw;
   // height: 40vh;
 }
+.content-container{
+  display: flex;
+
+}
 .welcome{
-  height: 100vh;
+  // height: 100vh;
   border: 0;
 }
 .welcome-container{
   padding-top: 3vh;
+  align-content: right;
+}
+.welcome-container img{
+  width: 8vh;
+  float: right;
 }
